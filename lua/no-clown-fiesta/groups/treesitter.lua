@@ -74,8 +74,8 @@ function M.highlight(palette, opts)
     ["@tag.attribute"] = { fg = palette.white },
     ["@tag.delimiter"] = { fg = palette.white },
     ["@text.uri"] = { fg = palette.light_gray },
-    ["@type"] = vim.tbl_extend("force", { fg = palette.white }, opts.styles.type),
-    ["@type.builtin"] = { fg = palette.white },
+    ["@type"] = vim.tbl_extend("force", { fg = "#83A3A6" }, opts.styles.type),
+    ["@type.builtin"] = { fg = "#83A3A6" },
     ["@variable"] = vim.tbl_extend(
       "force",
       { fg = palette.white },
